@@ -12,3 +12,5 @@ git add . OR git add file.ext = adds file to staging area
 git commit = commits file to Commit stage
 
 git log = displays history of commits
+
+git rm --cached file.ext = remove a file from the staging area
