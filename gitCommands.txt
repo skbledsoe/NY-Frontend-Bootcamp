@@ -10,3 +10,5 @@ git status = displays what branch you're on, how many commits you've made, any u
 
 git add = adds file to staging area
 git commit = commits file to Commit stage
+
+git log = displays history of commits
