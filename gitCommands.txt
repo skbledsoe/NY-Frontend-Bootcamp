@@ -15,3 +15,7 @@ git log = displays history of commits
 git log --oneline = displays single lines of commit history, just the messages
 
 git rm --cached file.ext = remove a file from the staging area
+
+git checkout _____ = paste full commit number, this takes you back to that commit
+git branch -a = shows what branch you're on
+git checkout main (or master) = takes you back to the main branch
