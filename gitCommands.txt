@@ -1,0 +1,11 @@
+git -v OR git --version = check git version
+git init = initializes a git repo
+git config --global user.name "username" = sets the username
+git config --global user.email "email@domain.com" = sets the email
+
+git config user.name = displays the username
+git config user.email = displays the email
+
+git status = displays what branch you're on, how many commits you've made, any untracked files, and any added files.
+
+git add = adds file to staging area
