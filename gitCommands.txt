@@ -9,3 +9,4 @@ git config user.email = displays the email
 git status = displays what branch you're on, how many commits you've made, any untracked files, and any added files.
 
 git add = adds file to staging area
+git commit = commits file to Commit stage
