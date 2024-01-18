@@ -19,3 +19,8 @@ git rm --cached file.ext = remove a file from the staging area
 git checkout _____ = paste full commit number, this takes you back to that commit
 git branch -a = shows what branch you're on
 git checkout main (or master) = takes you back to the main branch
+
+git branch branchName = creates a new branch
+git checkout branchName = moves you to the specified branch
+git merge branchName = merges specified branch with branch you're currently on
+git branch -d branchName = deletes specified branch
