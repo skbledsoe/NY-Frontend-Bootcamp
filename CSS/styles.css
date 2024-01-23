@@ -1,0 +1,94 @@
+/* selects all */
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+  background-color: rgba(128, 0, 128, 0.308);
+}
+
+li {
+  background-color: yellow;
+}
+
+.listClass {
+  background-color: aqua;
+}
+
+#listId {
+  background-color: brown;
+}
+
+li[value="list"] {
+  background-color: green;
+}
+
+.listClass1, .listClass2 {
+  background-color: blueviolet;
+}
+
+ul .descendant {
+  background-color: gray;
+}
+
+/* PSEUDO CLASSES */
+.hoverBtn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+
+}
+
+.activeBtn:active {
+  background-color: blueviolet;
+  border-color: blue;
+  color: yellow;
+  text-transform: uppercase;
+}
+
+.focusInput:focus {
+  background-color: rgba(128, 128, 128, 0.384);
+  border-color: black;
+  border-width: 5px;
+}
+
+.visitedLink:visited {
+  color: deeppink;
+}
+
+/* PSEUDO ELEMENTS */
+.bigLetter::first-letter {
+  font-size: 30px;
+}
+
+.line1::first-line {
+  color: blue;
+}
+
+.beforeAndAfter::before {
+  content: "before";
+  color: red;
+}
+
+.beforeAndAfter::after {
+  content: "after";
+  color: purple;
+}
+
+.selectedText::selection {
+  background-color: orange;
+  color: purple;
+}
+
+/* CASCADE ALGORITHM */
+/* Earlier Rule */
+.cascade {
+  background-color: red !important;
+}
+
+/* Later Rule */
+.cascade {
+  background-color: blue;
+  color: white;
+}
+

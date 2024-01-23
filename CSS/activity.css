@@ -1,0 +1,36 @@
+.font-family-size {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+} 
+
+.text-shadow {
+  text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.575);
+}
+
+.line-height {
+  line-height: 2;
+}
+
+.letter-spacing {
+  letter-spacing: 5px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
