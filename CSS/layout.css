@@ -1,0 +1,149 @@
+.box-model {
+  background-color: pink;
+  /* order of color, width, and style is interchangeable */
+  border: rgba(255, 0, 0, 0.397) 10px double;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  margin: 20px;
+  padding: 40px;
+  /* 
+    1 value = all sides 
+    2 values = top and bottom, right and left
+    3 values = top, right and left, bottom
+    4 values = top, right, bottom, left
+  */
+}
+
+.box-content {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  background-color: rgba(128, 0, 128, 0.575);
+  border: 2px black solid;
+  box-sizing: content-box;
+}
+
+.box-border {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  background-color: rgba(0, 128, 0, 0.411);
+  border: 2px black solid;
+  box-sizing: border-box;
+  font-size: small;
+}
+
+/* Display Property */
+.block {
+  background-color: burlywood;
+  display: block;
+  height: 100px;
+}
+
+.inline {
+  background-color: rgba(139, 69, 19, 0.623);
+  display: inline;
+  /* cannot set width and height for inline elements */
+  height: 100px;
+}
+
+.inline-block {
+  background-color: rgba(0, 0, 0, 0.445);
+  display: inline-block;
+  /* can set width and height for inline-block elements */
+  height: 200px;
+}
+
+/* Element Positioning */
+.static {
+  position: static;
+  background-color: limegreen;
+  width: 200px;
+  height: 50px;
+}
+
+/* element's position is relative to its original position */
+.relative {
+  position: relative;
+  background-color: aquamarine;
+  width: 200px;
+  height: 50px;
+  left: 80px;
+  /* 80px left of its original position */
+  top: 10px;
+  /* 10px from the top of its original position */
+}
+
+/* element's position is relative to the parent's positioning */
+.absolute {
+  position: absolute;
+  background-color: slateblue;
+  width: 200px;
+  height: 50px;
+  left: 80px;
+  top: 10px;
+}
+
+/* position is fixed in the viewport */
+.fixed {
+  position: fixed;
+  background-color: lightblue;
+  width: 200px;
+  height: 50px;
+  top: 0;
+  right: 0;
+}
+
+/* mix of relative and fixed */
+/* once you scroll down, it becomes fixed on the screen at the top */
+.sticky {
+  position: sticky;
+  background-color: rgb(209, 209, 171);
+  width: 200px;
+  height: 50px;
+  top: 50px;
+  left: 20px;
+}
+
+/* Floats */
+.float-right {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 68, 0, 0.774);
+  float: right;
+}
+
+.float-left {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(46, 139, 86, 0.692);
+  float: left;
+}
+
+.clear-floats {
+  background-color: peru;
+  clear: both;
+}
+
+/* Centering Elements */
+.parent-box {
+  height: 200px;
+  width: 300px;
+  background-color: plum;
+  /* auto margin only applies to left and right, not top or bottom */
+  margin: auto;
+}
+
+.center-vertical {
+  background-color: rgba(102, 51, 153, 0.863);
+  display: flex;
+  align-items: center;
+}
+
+.center-horizontal-vertical {
+  display: flex;
+  /* aligns vertically */
+  align-items: center;
+  /* aligns horizontally */
+  text-align: center;
+}
