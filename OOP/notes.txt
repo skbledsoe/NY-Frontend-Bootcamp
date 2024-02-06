@@ -1,0 +1,33 @@
+Four pillars of OOP:
+Encapsulation
+  -code is encapsulated inside of a class
+    -variables
+    -methods
+
+Inheritance
+  -subclasses inherit properties from parent classes
+
+Polymorphism
+  -enables code flexibility
+  -different objects respond to the same method differently
+
+Abstraction
+  -complex code is abstracted away, leaving code that is easier to understand.
+  -a car's engine is complex and not many understand how it operates. It's abstracted away into a car, which everyone knows how to operate.
+
+
+ACTIVITY
+Encapsulation
+  1. create a class Shape with properties width and height
+  2. Implement calculateArea() with the following in the body:
+    throw new Error("Method not implemented");
+
+Inheritance
+  3. Create class Rectangle that inherits from Shape
+  4. Add a displayFormula() method to the Rectangle class that logs the formula to get the area 
+
+Polymorphism
+  5. In the Rectangle class, override super calculateArea() to calculate its area
+  6. Create a new object instance of the Rectangle class named shape1
+  7. Log to the console the formula and area of the shape1 object
+  8. send a screenshot of code
